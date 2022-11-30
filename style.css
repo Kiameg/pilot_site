@@ -1,0 +1,116 @@
+body {
+  font-family: "Josefin Slab", serif;
+  background-color: lightgray;
+}
+
+main {
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 2rem;
+  margin-left: 49rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.passion {
+  padding: 3rem;
+}
+.interview {
+  padding: 3rem;
+}
+
+.layout {
+  padding: 3rem;
+}
+
+.passion:hover {
+  text-shadow: 2px 2px 2px black;
+}
+.interview:hover {
+  text-shadow: 2px 2px 2px black;
+}
+
+.layout:hover {
+  text-shadow: 2px 2px 2px black;
+}
+
+/***index***/
+
+.flex_con {
+  display: flex;
+  gap: 2rem;
+}
+.p_index {
+  font-size: 2rem;
+  padding: 0px 50px 0px 0px;
+  margin-top: 2rem;
+}
+
+.klik {
+  text-decoration: underline;
+}
+.klik:hover {
+  text-shadow: 2px 2px 2px black;
+}
+
+#billede1,
+#billede2 {
+  margin-top: 36px;
+  border: 0.3rem solid black;
+}
+img {
+  opacity: 0.8;
+}
+
+img:hover {
+  opacity: 1;
+}
+.billede_index {
+  display: flex;
+  flex-direction: column;
+}
+
+/***video_side***/
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 150px;
+
+  aspect-ratio: 16 / 9;
+}
+
+.main_vid {
+  max-width: 1500px;
+}
+
+video {
+  width: 100%;
+  margin-top: 150px;
+}
+
+/***layout_side***/
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
